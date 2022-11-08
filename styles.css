@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider::after {
+    content: "";
+}
+
+.divider {
+    border-style: solid;    
+    margin-right: 40%;
+    margin-left: 40%;
+    height: 5px;
+    background-color: #37ACB1;
+    border-radius: 5px;
+    border-color: #37ACB1;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.review {
+    border-style: solid;
+    border-width: 1px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+.author {
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#job {
+    text-align: center;
+    font-weight: 500;
+    margin-top: -15px;
+    color: #37ACB1;
+    cursor: pointer;
+}
+
+#info {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    background: none;
+    cursor: pointer;
+    border-style: none;
+}
+
+.random-btn {
+    position: absolute;
+    right: 46%;
+    background-color: none;
+    color: #37ACB1;
+    border-style: solid;
+    border-color: #37ACB1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+i {
+    font-size: 19px;
+    color: #37ACB1
+}
